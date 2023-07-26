@@ -1,6 +1,15 @@
+import React from 'react';
+import './App.css';
+import ContactList from './ContactList';
 
-import './App.css'
+function App() {
+  return (
+    <>
+      {/* Use the ContactList component */}
+      <ContactList />
+    </>
+  );
+}
 
+export default App;
 
-
-export default App
