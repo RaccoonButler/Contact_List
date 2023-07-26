@@ -10,9 +10,9 @@ export default function App() {
     <>
       {selectedContactId ? (
         <SelectedContact selectedContactId={selectedContactId} setSelectedContactId={setSelectedContactId} />
-        ) : (
-          <ContactList setSelectedContactId={setSelectedContactId} /> // Step 9: Pass setSelectedContactId down
-        )}
-      </>
-    );
-  }
+      ) : (
+        <ContactList setSelectedContactId={setSelectedContactId} /> 
+      )}
+    </>
+  );
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 
 function ContactRow({ setSelectedContactId, contact }) {
-  // Receive the contact object as a prop and use it to render the row
+
   return (
     <tr onClick={() => setSelectedContactId(contact.id)}>
       <td>{contact.name}</td>
